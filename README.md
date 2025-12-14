@@ -88,14 +88,14 @@ Indica que la información de Student se debe agregar de forma automática con l
 
 ## Assignment
 
-- [ ] Requiere que el valor de `assignedAt` sea poblado de **forma automática** al momento del registro con la fecha y hora actual.
-- [ ] No permite que se registre dos assignments con el mismo valor de `studentId`.
-- [ ] Especifica que los students con el mismo `parentId` **no deben asignarse a vehículos distintos**.
+- [x] Requiere que el valor de `assignedAt` sea poblado de **forma automática** al momento del registro con la fecha y hora actual.
+- [x] No permite que se registre dos assignments con el mismo valor de `studentId`.
+- [x] Especifica que los students con el mismo `parentId` **no deben asignarse a vehículos distintos**.
 
 ## Relaciones de entidad
 
 - [ ] Especifica que un Bus puede ser referenciado en **uno o muchos** Assignments, pero **un** Assignment solo puede referenciar a **un** Bus en particular.
-- [ ] Especifica que **un** Assignment puede referenciar a **un** Student, y **un** Student solo puede ser referenciado por **un** Assignment **a la vez**.
+- [x] Especifica que **un** Assignment puede referenciar a **un** Student, y **un** Student solo puede ser referenciado por **un** Assignment **a la vez**.
 
 # Endpoints
 
